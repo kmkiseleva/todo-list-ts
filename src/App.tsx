@@ -6,12 +6,12 @@ import About from "./pages/About";
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
       <div className="container">
         <Switch>
-          <Route component={TodosPage} path="/todo-list-ts" exact />
-          <Route component={About} path="/todo-list-ts/about" exact />
+          <Route component={TodosPage} path="/" exact />
+          <Route component={About} path="/about" exact />
         </Switch>
       </div>
     </BrowserRouter>

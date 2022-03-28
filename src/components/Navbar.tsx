@@ -9,10 +9,10 @@ const Navbar: React.FC = () => (
       </a>
       <ul className="right hide-on-med-and-down">
         <li>
-          <NavLink to="/todo-list-ts">Todo List</NavLink>
+          <NavLink to="/">Todo List</NavLink>
         </li>
         <li>
-          <NavLink to="/todo-list-ts/about">About</NavLink>
+          <NavLink to="/about">About</NavLink>
         </li>
       </ul>
     </div>
