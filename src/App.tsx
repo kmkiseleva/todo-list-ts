@@ -6,7 +6,7 @@ import About from "./pages/About";
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/todo-list-ts">
       <Navbar />
       <div className="container">
         <Switch>
